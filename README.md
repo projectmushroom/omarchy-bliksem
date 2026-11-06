@@ -50,6 +50,8 @@ omarchy plugin remove projectmushroom.bliksem
 
 ## What's in here
 
-`bin/bliksem` is a prebuilt x86_64 Linux program, built from a separate private source repo. Plugins run unsandboxed and so does this, so only install it if you trust it. It needs Omarchy 4 with Quickshell plugin support, and `alsa-lib` with `pipewire-alsa`.
+`bin/bliksem` is a small script that runs the prebuilt player for your machine: `bin/x86_64/bliksem` or `bin/aarch64/bliksem`, the latter built on Apple Silicon with Asahi. If the player can't start or dies, you get a desktop notification, and its errors go to `~/.local/state/bliksem.log`.
+
+The players are built from a separate private source repo. Plugins run unsandboxed and so do these, so only install this if you trust it. It needs Omarchy 4 with Quickshell plugin support, and `alsa-lib` with `pipewire-alsa`.
 
 The plugin's QML and manifest are MIT, see `LICENSE`. The screen font is the Px437 IBM VGA 9x16 by VileR, under CC BY-SA 4.0, see `FONT-LICENSE.txt`. Compiled-in open source packages are listed in `THIRD-PARTY.txt`. BLIKSEM is an unofficial player and has nothing to do with DI.fm.

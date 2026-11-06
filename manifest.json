@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "projectmushroom.bliksem",
   "name": "BLIKSEM",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "Project Mushroom",
   "license": "MIT",
   "description": "DI.fm on an amber CRT: a bolt on the bar with the current track.",
