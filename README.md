@@ -40,7 +40,25 @@ DI allows one stream per key and the newest connection wins, so another device o
 
 Your key and history are in `~/.config/bliksem/state.json`, readable only by you. Removing the plugin leaves them there.
 
+## When something goes wrong
+
+If you hear a pop or a glitch, run this straight away so the log shows when it happened:
+
+```sh
+~/.config/omarchy/plugins/projectmushroom.bliksem/bin/bliksem mark "pop"
+```
+
+This prints a report you can give to an AI agent or paste into an issue. It leaves out your listen key:
+
+```sh
+~/.config/omarchy/plugins/projectmushroom.bliksem/bin/bliksem report
+```
+
+`AGENTS.md` tells an agent on your machine what to do with it.
+
 ## Update and remove
+
+When there's a new version, a `[ NEW SHIT x.y.z ]` button appears on the player's status bar. Click it, and the player updates and restarts. You can also do it by hand:
 
 ```sh
 omarchy plugin update projectmushroom.bliksem

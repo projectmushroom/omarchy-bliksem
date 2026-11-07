@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "projectmushroom.bliksem",
   "name": "BLIKSEM",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "author": "Project Mushroom",
   "license": "MIT",
   "description": "DI.fm on an amber CRT: a bolt on the bar with the current track.",
@@ -19,7 +19,7 @@
     "allowMultiple": false,
     "defaultSection": "right",
     "defaults": {
-      "maxTitle": 32
+      "maxTitle": 20
     },
     "schema": [
       {
@@ -29,7 +29,7 @@
         "min": 0,
         "max": 80,
         "step": 4,
-        "defaultValue": 32
+        "defaultValue": 20
       }
     ]
   }
